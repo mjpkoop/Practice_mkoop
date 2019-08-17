@@ -6,3 +6,6 @@ pi_approx = function(darts = 500) {
   pi = 4 * (length(in_circle)/darts)
   return(pi)
 }
+
+pi_approx(darts=1000)
+pi_approx(darts=10000)
